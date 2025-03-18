@@ -29,7 +29,7 @@ fork/thread 사용 X
 
 ### /sock_addr/server.c, /sock_addr/client.c
 
-AF_UNIX/SOCK_STREAM 타입의 소켓을 사용하는 server-client 프로그램
+#### AF_UNIX/SOCK_STREAM 타입의 소켓을 사용하는 server-client 프로그램
 
 client의 요청에 server가 accept로 반응
 
@@ -39,13 +39,13 @@ server는 client로부터 받은 메시지를 터미널에 출력
 
 ### /sock_addr/q2_server.c, /sock_addr/q2_client.c
 
-AF_INET/SOCK_STREAM 타입의 server-client 소켓 프로그램 : 동기형 1 대 1 채팅
+#### AF_INET/SOCK_STREAM 타입의 server-client 소켓 프로그램 : 동기형 1 대 1 채팅
 
 동기화된 양방향 메시지 전송, 순서에 따라 채팅
 
 ### /MultiService/
 
-AF_INET 도메인 STREAM 소켓 : 멀티 서비스
+#### AF_INET 도메인 STREAM 소켓 : 멀티 서비스
 
 사용자의 입력 - 1 : 현재 시간을 문자열 형태로 client에게 전달
 
